@@ -1,9 +1,63 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <html>
-	<head>
-		<title>Yuanwei Wu</title>
-	</head>
-	<body>
+<head>
+ <title>Yuanwei Wu's homepage</title>
+ <style>
+
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+p { font-size : 16px; }
+h1 { padding : 0; margin : 0; font-size : 34px; }
+h2 { font-size : 20px; margin : 0; padding : 0; }
+body { padding : 0; font-family : Arial; font-size : 16px; background-color : white; }
+.title { width : 800px; margin : 20px auto; }
+.container { width : 700px; margin : 20px auto; border-radius: 10px;  background-color : #fff; padding : 20px;  clear:both;}
+#bio {
+    padding-top : 40px;
+}
+#me { border : 0 solid black; margin-bottom : 80px; border-radius : 20px; }
+#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #0050e7; }
+.publogo { width: 100 px; margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 0px; }
+.publication p { height : 100px; padding-top : 5px;}
+.publication strong a { color : #0000A0; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 20px; }
+.codelogo { margin-right : 10px; float : left; border : 0;}
+.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
+.code .download a { display : block; margin : 0 15px; float : left;}
+.code strong a { color : #000; }
+.external a { margin : 0 10px; }
+.external a.first { margin : 0 10px 0 0; }
+ </style>
+ <script async="" src="//www.google-analytics.com/analytics.js"></script>
+</head>
+
+<body>
+ <div class="title">
+  <div id="sidebar"><img src="Yuanwei.jpg" vspace="40 px" width="250 px" id="me" itemprop="photo"></div>
+  <div id="bio">
+   <h1>
+    <span itemprop="name">Yuanwei Wu</span>
+   </h1>
+   <p style="line-height:23px;">
+    PhD Candidate<br>
+                Electrical Engineering, The University of Kansas<br>
+                Email: y262w558 at ku.edu <br>
+   </p>
+   <p class="external">
+   </p>
+  </div>
+ </div>
 		<nav>
     		<ul>
         		<li><a href="/">Home</a></li>	  
@@ -19,8 +73,12 @@
 			<div id="sidebar"><img src="Yuanwei.jpg" vspace="40 px" width="250 px" id="me" itemprop="photo"></div>
 				<p>I am a PhD candidate in Electrical Engineer and Computer Science department at The University of Kansas, advised by Professor 
 					<a href="http://www.ittc.ku.edu/~ghwang/"> Richard Wang </a>.</p>
-				<p> My research focuses on deep learning, machine learning and computer vision, particularly in the area of visual object tracking,
-					object proposal, small object detection and recognition. </p>
+			<p> My research focuses on <em> deep learning, machine learning and computer vision </em>, particularly in the following areas:</p>
+			 <ul>	
+				 <li> Real-time Visual Object Tracking </li>
+				 <li> Small Object Detection and Recognition </li>
+				 <li> Feature Transfer Learning in Deep Neural Network </li>
+			</ul>
 			<p> <a href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
