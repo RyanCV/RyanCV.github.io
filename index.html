@@ -21,7 +21,7 @@ body { padding : 0; font-family : verdana; font-size : 16px; background-color : 
 #bio {
     padding-top : 40px;
 }
-#me { border : 0 solid black; margin-bottom : 80px; border-radius : 20px; }
+#me { border : 0 solid black; margin-bottom : 40px; border-radius : 20px; }
 #sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
 a { text-decoration : none; }
 a:hover { text-decoration : underline; }
@@ -53,7 +53,7 @@ font-weight: bold;
       <tbody>
         <tr>
           <td width="323">
-            <p align="center"> <font face="verdana"><img src="images/Yuanwei.jpg"
+            <p align="center"> <font face="verdana"><img id="me" src="images/Yuanwei.jpg"
                   border="0" width="250 px"></font> </p>
           </td>
           <td> <font face="verdana" size="5"><b>&nbsp;Yuanwei Wu <span
@@ -62,7 +62,7 @@ font-weight: bold;
                 PhD candidate</font> </p>
 			<p> <font style="font-size: 11pt;" face="verdana">&nbsp;
 				Department of EECS</font> </p>
-            <p> <font style="font-size: 11pt;" face="verdana">&nbsp;
+      <p> <font style="font-size: 11pt;" face="verdana">&nbsp;
                 The University of Kansas, Lawrence, KS</font> </p>
 			<p> <font style="font-size: 11pt;" face="verdana">&nbsp;
                 Email: y262w558 at ku dot edu</font> </p>
@@ -71,66 +71,56 @@ font-weight: bold;
       </tbody>
     </table>
 
-	<table style="border-width: 0px;" border="1" width="720"
-      height="200">
+	<table id="table2" style="border-width: 0px;" border="1" width="715" height="200">
       <tbody>
         <tr>
-		<td style="border-style: none; border-width: medium;">
-			<h2> About me </h2>
-            <p style="margin-top: 3px; margin-bottom: 3px;"> <font
-                style="font-size: 12pt;" face="verdana">I am a third year PhD student 
-				in the department of Electrical Engineer and Computer Science at 
+		    <td style="border-style: none; border-width: medium;">
+			  <b><font face="verdana" size="5">About me</font></b>
+        <p style="margin-top: 3px; margin-bottom: 3px;"><font style="font-size: 12pt;" face="verdana">
+        I am a third year PhD student in the department of Electrical Engineering and Computer Science at 
 				<a href="https://www.ku.edu/">The University of Kansas</a> since 2015. 
 				I work with Professor <a href="http://www.ittc.ku.edu/~ghwang/"> Guanghui (Richard) Wang</a>.
-				My research interests include <em> computer vision and deep learning</em>. 
-			</p>
+				My research interests include <em> computer vision and deep learning</em>. Particularly, I have 
+        been focusing on the optimization of deep learning and its applications on small/low-quality object recognition, localization and detection. </p>
 			<br>
-			<p style="margin-top: 3px; margin-bottom: 3px;"> <font
-                style="font-size: 12pt;" face="verdana">I received my master from 
-				Tufts University </a> in 2015. Before coming to US, I received my 
+			<p style="margin-top: 3px; margin-bottom: 3px;"> <font style="font-size: 12pt;" face="verdana">
+        I received my master from Tufts University </a> in 2015. Before coming to US, I received my 
 				master from Graduate University of Chinese Academy of Sciences in 2012, 
 				and my B.S. in physics from Hunan Normal University in 2009. <br>
 			</p>
 			<br>
-			<h2> News </h2>
+      <p> <b><font face="verdana" size="5">News</font></b></p>
 				<ul>
-					<li> I am a research intern at MERL (Mitsubishi Electric Research Laboratories) since Jan. 2017.
+					<li> I am a research intern at MERL (Mitsubishi Electric Research Laboratories) since Jan., 2017.
 				</ul>
 		</td>
 		</tr>
 	</table>
  
  <p> <b><font face="verdana" size="5">Publications</font></b> </p>    
-    <table id="table2" style="border-width: 0px;" border="1"
-      width="1200" height="120">
+    <table id="table3" style="border-width: 0px;" border="1" width="1200" height="120">
       <tbody>
         <tr>
-		<h2> 2017</h2>
-          <td style="border-style: none; border-width: medium;"
-            valign="top" width="19">&nbsp; </td>
-          <td style="border-style: none; border-width: medium;"
-            valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
-          <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
-            <p style="margin-left: 10px; line-height: 150%; margin-top:
-              8px; margin-bottom: 8px;"><i><font face="verdana">BPGrad: Towards Global Optimality 
-			  in Deep Learning via Branch and Pruning</font></i><font
-                face="verdana"><i><font style="font-size: 12pt;"><br>
-                  </font></i></font> <font face="verdana" size="2"
-                color="#000000">Ziming Zhang<sup>*</sup>, <b>Yuanwei Wu<sup>*</sup></b>, and Guanghui Wang</font><b><font
-                  face="verdana" size="2" color="#000000"><br>
-                </font></b><font face="verdana" size="2">Tech Report, Arxiv, Nov. 2017</font><font face="verdana" size="2"><br>
-                <font color="#808080"><a href="https://arxiv.org/abs/1711.06959.pdf"
-				target="_blank"><font color="#808080">Arxiv</font></a></font></font> </p>
+		    <h2> 2017</h2>
+          <td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp; </td>
+          <td style="border-style: none; border-width: medium;" valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
+          <td style="border-style: none; border-width: medium;" valign="top" width="1100">
+          <p style="margin-left: 10px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;">
+            <i><font face="verdana">BPGrad: Towards Global Optimality in Deep Learning via 
+              Branch and Pruning</font></i>
+              <font face="verdana"><i><font style="font-size: 12pt;"><br></font></i></font> 
+              <font face="verdana" size="2" color="#000000">Ziming Zhang<sup>*</sup>, <b>Yuanwei Wu<sup>*</sup></b>, and Guanghui Wang</font>
+              <b><font face="verdana" size="2" color="#000000"><br></font></b>
+              <font face="verdana" size="2">Tech Report, Arxiv, Nov. 2017</font>
+              <font face="verdana" size="2"><br>
+              <font color="#808080"><a href="https://arxiv.org/pdf/1711.06959.pdf" target="_blank">
+              <font color="#808080">Arxiv</font></a></font></font> </p>
           </td>
         </tr>
-		<tr>
-          <td style="border-style: none; border-width: medium;"
-            valign="top" width="19">&nbsp; </td>
-          <td style="border-style: none; border-width: medium;"
-            valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
-          <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
+		    <tr>
+          <td style="border-style: none; border-width: medium;" valign="top" width="19">&nbsp; </td>
+          <td style="border-style: none; border-width: medium;" valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
+          <td style="border-style: none; border-width: medium;" valign="top" width="1100">
             <p style="margin-left: 10px; line-height: 150%; margin-top:
               8px; margin-bottom: 8px;"><i><font face="verdana">Vision-based Real-Time 
 			  Aerial Object Localization and Tracking for UAV Sensing System</font></i><font
@@ -140,7 +130,7 @@ font-weight: bold;
                   face="verdana" size="2" color="#000000"><br>
                 </font></b><font face="verdana" size="2">IEEE Access, Vol. 5, 
 				23969 - 23978, 2017</font><font face="verdana" size="2"><br>
-                <font color="#808080"><a href="http://ieeexplore.ieee.org/document/8080161/?reload=true"
+                <font color="#808080"><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8080161"
 				target="_blank"><font color="#808080">PDF</font></a>&nbsp;&nbsp;
 				<a href="https://arxiv.org/pdf/1703.06527.pdf" target="_blank"><font color="#808080">Arxiv</font></a>&nbsp;&nbsp;
 				<a href="http://ieeexplore.ieee.org/document/8080161/?reload=true" target="_blank"><font color="#808080">Project page</font></a></font></font> </p>
@@ -152,7 +142,7 @@ font-weight: bold;
           <td style="border-style: none; border-width: medium;"
             valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
           <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
+            valign="top" width="1100">
             <p style="margin-left: 10px; line-height: 150%; margin-top:
               8px; margin-bottom: 8px;"><i><font face="verdana">Real-time Obstacle 
 			  Detection and Tracking for Sense-and-Avoid Mechanism in UAVs</font></i><font
@@ -177,7 +167,7 @@ font-weight: bold;
           <td style="border-style: none; border-width: medium;"
             valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
           <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
+            valign="top" width="1100">
             <p style="margin-left: 10px; line-height: 150%; margin-top:
               8px; margin-bottom: 8px;"><i><font face="verdana">Fast and 
 			  Robust Object Tracking with Adaptive Detection</font></i><font
@@ -204,7 +194,7 @@ font-weight: bold;
           <td style="border-style: none; border-width: medium;"
             valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
           <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
+            valign="top" width="1100">
             <p style="margin-left: 10px; line-height: 150%; margin-top:
               8px; margin-bottom: 8px;"><i><font face="verdana">Volume processing of 
 			  gas using two-dimensional microplasma arrays</font></i><font
@@ -223,13 +213,14 @@ font-weight: bold;
           <td style="border-style: none; border-width: medium;"
             valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
           <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
+            valign="top" width="1100">
             <p style="margin-left: 10px; line-height: 150%; margin-top:
               8px; margin-bottom: 8px;"><i><font face="verdana">Polypropylene films modified
 			  by air plasma and feather keratin graft</font></i><font
                 face="verdana"><i><font style="font-size: 12pt;"><br>
                   </font></i></font> <font face="verdana" size="2"
-                color="#000000"><b>Yuanwei Wu</b>, Chuanyu Han, Jinghua Yang, Shaoxia Jia and Shouguo Wang</font><b><font
+                color="#000000"><b>Yuanwei Wu</b>, Chuanyu Han, Jinghua Yang, Shaoxia Jia and Shouguo Wang
+              </font><b><font
                   face="verdana" size="2" color="#000000"><br>
                 </font></b><font face="verdana" size="2">Surface and Coatings 
 				Technology, 206.2, 506-510, 2011.</font><font face="verdana" size="2"><br>
@@ -243,14 +234,13 @@ font-weight: bold;
           <td style="border-style: none; border-width: medium;"
             valign="top" bgcolor="#B0E0E6" width="1"> &nbsp; </td>
           <td style="border-style: none; border-width: medium;"
-            valign="top" width="1108">
+            valign="top" width="1100">
             <p style="margin-left: 10px; line-height: 150%; margin-top:
               8px; margin-bottom: 8px;"><i><font face="verdana">Process Progress of Low-Damage Plasma 
 			  Stripping on Ultralow-k Dielectric Materials</font></i><font
                 face="verdana"><i><font style="font-size: 12pt;"><br>
                   </font></i></font> <font face="verdana" size="2"
-                color="#000000"><b>Yuanwei Wu</b>, Chuanyu Han, Lingli Zhao and Shouguo Wang
-				Yao Sui and Guanghui Wang</font><b><font
+                color="#000000"><b>Yuanwei Wu</b>, Chuanyu Han, Lingli Zhao and Shouguo Wang</font><b><font
                   face="verdana" size="2" color="#000000"><br>
                 </font></b><font face="verdana" size="2">Micronanoelectronic Technology 11 (2011): 010.</font><font face="verdana" size="2"><br>
                 <font color="#808080"><a href="http://en.cnki.com.cn/Article_en/CJFDTOTAL-BDTQ201111010.htm"
@@ -259,32 +249,34 @@ font-weight: bold;
         </tr>
 	</tbody>
 </table>	
-	
-	 <br>
-	 <h2>Teaching Experience</h2>
-	  <p>
-	  Teaching Assistant, Tufts University 
-	  <br>
-	  ES3: Introduction to Electrical Engineering (Fall 2012)
-	  <br>
-	  ES4: Introduction to Digital Logic Circuits (Spring 2013)
-	<br>
 
-	<footer>
-    		<ul>        		
-        		<li><a href="https://github.com/RyanCV">github.com/RyanCV</a></li>
-		</ul>
-            	<div style="text-align: center">
-              	  	<span>©
-                   	 	<script>document.write(new Date().getFullYear())</script>
-                   		 Yuanwei Wu
-               		 </span>
-           	 </div>
+   <p style="margin-bottom: 0pt;"> <font face="verdana">&nbsp;</font></p>
+	 <p> <b><font face="verdana" size="5">Teaching Experience</font></b></p>
+   <ul>
+    <li> <p style="line-height: 150%; margin-left: 15px; margin-top: 0pt;
+          margin-bottom: 0pt;"><font face="verdana" size="3" color="#444444">
+          Graduate Teaching Assistant, The University of Kansas</font> </p>
+      <ul> <li><font face="verdana" size="2" color="#444444"> 
+        EECS 268: Programming II, C++ (Fall 2017)</font></li></ul>
+    <li> <p style="line-height: 150%; margin-left: 15px; margin-top: 0pt;
+          margin-bottom: 0pt;"><font face="verdana" size="3" color="#444444">
+          Teaching Assistant, Tufts University</font> </p>
+      <ul>
+        <li> <font face="verdana", size="2", color="#444444">
+          ES3: Introduction to Electrical Engineering (Fall 2012)</font></li>
+	      <li> <font face="verdana", size="2", color="#444444">
+          ES4: Introduction to Digital Logic Circuits (Spring 2013)</font></li>
+      </ul>
+    </li>
+  </ul>
+
+	<footer>    		      	
 		<div class="page-header" style="margin-top: 0px;"></div>
-		<div class="col-md-2">
+		<div class="col-md-2" style="text-align: center">
 			<a href="http://info.flagcounter.com/wYum"><img src="http://s10.flagcounter.com/count2/wYum/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-       		 </div>
+      <span>Last updated: Dec., <script>document.write(new Date().getFullYear())</script></span>
+ 		</div>
 	</footer>
 	
-	</body>
+</body>
 </html>
