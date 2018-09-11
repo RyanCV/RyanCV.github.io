@@ -1,1 +1,7 @@
+@article{ma2018mdcn,
+  title={MDCN: Multi-Scale, Deep Inception Convolutional Neural Networks for Efficient Object Detection},
+  author={Ma, Wenchi and Wu, Yuanwei and Wang, Zongbo and Wang, Guanghui},
+  journal={arXiv preprint arXiv:1809.01791},
+  year={2018}
+}
 
